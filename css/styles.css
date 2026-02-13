@@ -142,15 +142,15 @@
 }
 
 #benefit-1 {
-  background-image: url(../img/hd1.jpg);
+  background-image: url("../img/hd1.jpg");
 }
 
 #benefit-2 {
-  background-image: url(../img/hd2.jpg);
+  background-image: url("../img/hd2.jpg");
 }
 
 #benefit-3 {
-  background-image: url(../img/hd3.jpg);
+  background-image: url("../img/hd3.jpg");
 }
 
 
@@ -220,12 +220,12 @@
     margin-bottom: 1em;
   }
 
-  .detail-discription ul {
+  .detail-description ul {
     list-style-position: inside;  /* Faz os marcadores da lista ficarem dentro do bloco de texto, alinhados com o conteúdo */
     text-align: left;
   }
 
-  .detail-discription ul li {
+  .detail-description ul li {
     margin-bottom: 0.5em;
   }
 
@@ -300,14 +300,14 @@
 
   .detail {
     flex-direction: row;
-    justify-content: left;
+    text-align: left;
   }
 
   .detail img {
     width: 50%;
   }
 
-  .detail-discription {
+  .detail-description {
     width: 50%;
   }
   
